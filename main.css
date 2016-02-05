@@ -1,0 +1,163 @@
+body {
+  background-image: url("img/bg.jpg");
+  position: relative;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 20%;
+}
+
+.header-social {
+  text-align: right;
+}
+
+
+.header-social p {
+  margin-right: 3%;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.header-social p span {
+  font-size: 30px;
+  padding-left: 10%;
+  color: white;
+  text-align: center;
+
+}
+
+
+.header-social ul {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+
+}
+
+.header-social li {
+  display: inline-block;
+  vertical-align: middle;
+  right: auto;
+}
+
+.navbar {
+  width: 100%auto;
+}
+
+.box-1 {
+  width: 24.5%;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 17px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center; }
+
+nav li {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  font-size: 1em;
+  margin: 0 15px;
+  padding: 1.5%;
+}
+
+.box-1 span {
+  padding: 24px;
+  font-size: 24px;
+}
+
+.container-1 {
+  height: 21em;
+  width: 99%;
+  margin-top: 3%;
+  border: 6px solid white;
+  background: url("img/top-image.png");
+  background-size: 100%;
+  background-size: 132%;
+  background-position: center;
+  background-position-x: -5em;
+  background-position-y: -8em;
+}
+
+.container-1 ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.container-1 li {
+padding: 1em;
+margin-top: 2em;
+}
+
+.container-2 {
+  height: 18em;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 3%;
+  display: inline-block;
+}
+
+/*.sec-1 {
+  width: 33%;
+  display: inline-block;
+  background-color: #fff;
+}
+
+.sec-2 {
+  width: 33%;
+  display: inline-block;
+  background-color: #fff;
+}
+
+.sec-3 {
+  width: 33%;
+  display: inline-block;
+  background-color: #fff;
+}*/
+
+.container-2 section {
+  width: 33%;
+  display: inline-block;
+  background-color: #fff;
+  height: auto;
+
+}
+
+.container-2 p {
+  font-size: .8em;
+  margin: 4%;
+}
+
+ .container-2 span {
+  font-size: 1.3em;
+  font-weight: bold;
+  vertical-align: top;
+  margin: 4%;
+}
+
+.container-2 h4 {
+  color: lightgrey;
+  font-size: .8em;
+  margin: 4%;
+}
+
+.container-2 h3 {
+  font-size: .8em;
+  color: red;
+  text-align: center;
+}
