@@ -1,15 +1,15 @@
 body {
-  background-image: url("img/bg.jpg");
+  background: url("img/bg.jpg");
   position: relative;
   padding: 0;
   margin: 0;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 138%;
 }
 
 #wrapper {
   width: 70%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 header {
@@ -21,11 +21,14 @@ header {
   text-align: right;
 }
 
-
 .header-social p {
   margin-right: 3%;
   font-size: 18px;
   display: inline-block;
+
+}
+.dotDot{
+  padding-bottom: 20px;
 }
 
 .header-social p span {
@@ -33,7 +36,6 @@ header {
   padding-left: 10%;
   color: white;
   text-align: center;
-
 }
 
 
@@ -50,8 +52,12 @@ header {
   right: auto;
 }
 
+.header-social img {
+  box-shadow: 0 8px 6px -6px grey;
+}
+
 .navbar {
-  width: 100%auto;
+  width: 100%;
 }
 
 .box-1 {
@@ -86,7 +92,6 @@ nav li {
   margin-top: 3%;
   border: 6px solid white;
   background: url("img/top-image.png");
-  background-size: 100%;
   background-size: 132%;
   background-position: center;
   background-position-x: -5em;
@@ -105,36 +110,16 @@ margin-top: 2em;
 }
 
 .container-2 {
-  height: 18em;
   width: 100%;
-  margin: 0 auto;
   padding-top: 3%;
   display: inline-block;
 }
-
-/*.sec-1 {
-  width: 33%;
-  display: inline-block;
-  background-color: #fff;
-}
-
-.sec-2 {
-  width: 33%;
-  display: inline-block;
-  background-color: #fff;
-}
-
-.sec-3 {
-  width: 33%;
-  display: inline-block;
-  background-color: #fff;
-}*/
 
 .container-2 section {
   width: 33%;
   display: inline-block;
   background-color: #fff;
-  height: auto;
+  /*height: 300px;*/
 
 }
 
@@ -143,10 +128,9 @@ margin-top: 2em;
   margin: 4%;
 }
 
- .container-2 span {
+ .container-2 h1 {
   font-size: 1.3em;
   font-weight: bold;
-  vertical-align: top;
   margin: 4%;
 }
 
@@ -161,3 +145,237 @@ margin-top: 2em;
   color: red;
   text-align: center;
 }
+
+.container-3 {
+  width: 100%;
+  height: 400px;
+  margin-top: 4%;
+  padding: 0;
+}
+.arrow-box {
+  background-color: red;
+  position: absolute;
+  margin-left: -175px;
+  width: 150px;
+  height: 39px;
+  margin-top: 75px;
+}
+
+.arrow-box div {
+color: white;
+padding: 6%;
+}
+
+.arrow {
+  position: absolute;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid red;
+  margin-left: -25px;
+  margin-top: 75px;
+
+}
+
+.col-7 {
+  width: 69%;
+  height: 400px;
+  display: inline-block;
+}
+
+.container-3 span {
+  position: absolute;
+  margin: 80px;
+  font-weight: 600;
+}
+
+.img-4 {
+  width: 48.9%;
+  height: 49.5%;
+  margin: 0;
+  padding: 0;
+  background-image: url("img/sk8er-4.png");
+  background-size: 107%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  border: 3px solid white;
+}
+
+.img-4 span {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.img-3 {
+  width: 48.6%;
+  height: 49.4%;
+  margin: 0;
+  padding: 0;
+  background-image: url("img/sk8er-3.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  border: 3px solid white;
+}
+
+.img-3 span {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.img-1 {
+  width: 99%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  background-image: url("img/sk8er-1.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position-y: 70%;
+  background-size: cover;
+  position: relative;
+  border: 3px solid white;
+}
+
+.img-1 span {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-left: 20%;
+}
+
+
+.col-3 {
+  width: 30.5%;
+  height: 102%;
+  display: inline-block;
+}
+
+.img-2 {
+  width: 99%;
+  height: 409px;
+  margin: 0;
+  background-image: url("img/sk8er-2.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: 84%;
+  background-position-y: 48%;
+  background-size: cover;
+  position: relative;
+  border: 3px solid white;
+}
+
+.img-2 span {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 55%;
+}
+
+.skateboards {
+  width: 100%;
+  margin-top: 4%;
+  padding: 0;
+  background-color: white;
+  display: inline-block;
+  -webkit-transition: 1s ease-in-out;
+}
+
+.skateboards:hover{
+   -webkit-transform: translate(3em,0);
+
+}
+
+.skateboards ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 1.4%;
+}
+
+.skateboards img {
+  display: inline-block;
+  width: 100%;
+  -webkit-transition: 1s ease-in-out;
+}
+
+.skateboards img:hover{
+  -webkit-transform: rotate(500deg);
+}
+
+.container-4 {
+  width: 100%;
+  height: 300px;
+  margin-top: 4%;
+  padding: 0;
+  background-color: white;
+  display: inline-block;
+}
+
+.col-6 {
+  width: 59.9%;
+  height: 300px;
+  display: inline-block;
+}
+
+.row-1 {
+  width: 100%;
+  height: 150px;
+  display: inline-block;
+}
+
+.row-2 {
+  width: 100%;
+  height: 150px;
+  display: inline-block;
+}
+
+.row-2 ul {
+  display: inline-block;
+  padding-left: 0;
+  padding-top: 10px;
+}
+
+.row-2 li {
+  list-style: none;
+  display: inline-block;
+}
+
+.row-2 img {
+  height: 2em;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.col-4 {
+  width: 39%;
+  height: 300px;
+  display: inline-block;
+}
+
+input {
+      background-color: white;
+      border: 1px solid lightgrey;
+      margin: 0 0 1.5em 0;
+      padding: .75em;
+      width: 95%;
+      -webkit-box-shadow: inset 0 0 10px #000000;
+}
+
+input[name="yourMessage"]{
+  height: 50px;
+}
+
+input[type='submit'] {
+  padding-right: 10%;
+  background-color: red;
+  border: none;
+  color: white;
+  width: 50%;
+  margin-left: 51%;
+
+}
+/*.button {
+
+}*/
